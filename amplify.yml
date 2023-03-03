@@ -5,7 +5,7 @@ backend:
       commands:
         - nvm install 14
         - nvm use 14
-        - npm install -g @aws-amplify/cli@10.5.1-rc.2859c9e8e.0
+        - npm install -g @aws-amplify/cli@11.0.0-rc.e5f00c392.0
     build:
       commands:
         - amplifyPush --simple
