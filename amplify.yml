@@ -9,6 +9,7 @@ backend:
         - npm install -g @aws-amplify/cli@12.12.7-hotfix-rc-20241004-attempt-3.0
     build:
       commands:
+        - amplify -v
         - amplifyPush --simple
 frontend:
   phases:
