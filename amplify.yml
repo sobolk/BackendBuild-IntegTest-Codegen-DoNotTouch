@@ -10,8 +10,8 @@ backend:
     build:
       commands:
         - amplify -v
-        - amplifyPush --simple || true
-        - cat ~/.amplify/logs/*
+        - sleep 180
+        - amplifyPush --simple
 frontend:
   phases:
     build:
