@@ -11,7 +11,7 @@ backend:
       commands:
         - amplify -v
         - sleep 180
-        - amplifyPush --simple
+        - AMPLIFY_ENABLE_DEBUG_OUTPUT=true amplifyPush --simple
 frontend:
   phases:
     build:
